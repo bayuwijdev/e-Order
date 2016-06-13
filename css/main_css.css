@@ -1,0 +1,45 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline; 
+}
+
+a { 
+	text-decoration:none; font-family: Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; 
+} 
+body {
+ 	background-color: #DCDCDC; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #336699; 
+ } 
+
+#left {
+	width: 13%;
+    height: 100%;
+    margin: 0.2%;
+    position: fixed;
+    background-color: #e0f7fa;
+}
+
+.judul { 
+	font-size:36px; text-transform:uppercase; text-align:center; font-weight:bold; 
+} 
+.info { 
+	background-color:#0099FF; text-align:center; color:white; 
+}
+.error{ 
+	background-color:red; color:white; text-align:center; 
+} 
+.warning{ 
+	background-color:yellow; color:black; text-align:center; 
+} 
+.judultable{ 
+	background-color:#CCCCCC; font-weight:bold; font-size:14px; text-align:center; 
+}
